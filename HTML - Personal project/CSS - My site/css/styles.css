@@ -8,28 +8,5 @@ h1{
 }
 .top-container{
     background-color: aliceblue;
-    height: 200px;
-    width: 200px;
-    border-color: black;
-    border-style: solid;
-    border-width: 10px;
-    padding: 20px;
-}
-.middle-container{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-    border-style: solid;
-    border-color: black;
-    border-width: 20px;
-    margin-left: 260px;
-}
-.bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: red;
-    border-color: black;
-    border-style: solid;
-    border-width: 10px;
-    margin-left:500px;
+
 }
