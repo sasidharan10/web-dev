@@ -24,6 +24,9 @@ a{
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
 }
+p{
+    line-height: 2;
+}
 
 .top-container{
     background-color: #EAF6F6;
@@ -34,8 +37,9 @@ a{
     margin: auto;
     text-align: center;
 }
-.middle-container.p{
-    margin: 20px 400px;
+.middle-container .profile p{
+    width: 30%;
+    margin: auto;
 }
 .middle-container hr{
     border-style: dotted none none;
@@ -53,7 +57,6 @@ a{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 .cpp{
     width: 30%;
@@ -73,26 +76,33 @@ a{
 }
 .bottom-cloud{
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom:300px;
 }
 .contact-me p{
     margin: auto 400px;
 }
-.contact-me a{
+.btn{
     /* border: 2px solid #11999E; */
+    display: inline-block;
     background-color: #11999E;
     color: white;
     border-radius: 6px;
     padding: 5px 10px;
     text-decoration: none;
     font-weight: bold;
-    margin: 20px auto;
+    margin: 30px auto;
     z-index: 0;
+}
+
+.contact-me a:hover{
+    /* border: 2px solid #11999E; */
+    background-color: #0d9397;
 }
 
 .bottom-container{
     background-color: #66BFBF;
+    margin-top: 10px;
     padding: 50px 0;
 }
 .bottom-container a{
@@ -101,6 +111,7 @@ a{
     font-weight: bold;
 }
 .bottom-container p{
+    margin-top: 20px;
     color: white;
     font-size: 0.7em;
 }
